@@ -1,0 +1,49 @@
+.a{
+    background: grey;
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+}
+.q{
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.w{
+    background: rgb(55, 0, 255);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+}
+.e{
+    background: rgb(0, 97, 16);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+}
+.r{
+    background: rgb(255, 238, 0);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sigma{
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    width: 400px;
+    height: 400px;
+}
+p{
+    position: relative;
+    bottom: 400px;
+    left: 750px;
+    font-size: 20px;
+    color: cyan;
+}

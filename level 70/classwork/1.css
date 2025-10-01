@@ -1,0 +1,33 @@
+
+.j{
+    position: absolute;
+    background: blue;
+    border: black;
+    width: 300px;
+    height: 300px;
+
+}
+.a{
+    background:purple;
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+.b{
+    background:red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left:200px;
+}
+.c{
+    background:cyan;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+
+}
