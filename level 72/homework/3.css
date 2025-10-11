@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.g{
+    background-color: rgb(0, 0, 0);
+    
+    width: 400px;
+    height: 850px;
+    position: relative;
+    left: 300px;
+}
+.gi{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    position: relative;
+    right:250px;
+}
+.gio{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 300px;
+    position: relative;
+    right: 550px;
+    border-bottom-left-radius: 250px;
+    border-top-left-radius: 250px;
+}
