@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+
+}

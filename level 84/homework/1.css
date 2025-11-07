@@ -1,0 +1,19 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  background-color: rgb(156, 156, 241);
+  height: 200px;
+  width: 200px;
+  transform: translateY(0) rotate(0);
+  transition: transform 2s;
+} 
+.circle:hover{
+  transform: translateY(200px) rotate(120deg);
+  background-color: yellow;
+  border-radius: 30px;
+  border-radius: 30px;
+}

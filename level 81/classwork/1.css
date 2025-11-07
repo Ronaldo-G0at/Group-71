@@ -1,0 +1,35 @@
+/* ახსენით რას აკეთებს თითოეული transform-ის მნიშვნელობა:
+translate
+scale
+rotate
+
+2) შექმენით div-ი, რომელსაც ამოატრიალებთ საათის ისრის მიმართულებით 45 გრადუსით და გაანახევრებთ მის ზომას Hover-ის დრის.
+
+3) საიტზე დაამატეთ ფოტო. active მდგომარეობაში ფოტო საათის ისრის საწინააღმდეგო მიმარ
+თულებით მოატრიალეთ 90 გრადუსით, ზომაში ორმაგად გაადიდეთ, გაამოძრავეთ მარცხნივ 150 პისელით, ხოლო ქვემოთ 180 პიქსელით */
+/* translate is gamoyenebit shegvidzliat shevucvalot agilmdebareoba
+scale is daxmarebit shegvidzlia gavadidot an shevamcirot zomashi
+rotate is gamoyenebit shegvilia gadavatrialot ramedd */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    transition: transform 1s linear;
+}
+
+.s:hover {
+    transform: rotate(45deg) scale(0.5);
+}
+img{
+    position: relative;
+    left: 500px;
+}
+img:active{
+    transform: rotate(-90deg) translate(-150px,-180px);
+}
